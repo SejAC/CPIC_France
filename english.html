@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <title>CPIC - English </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_francais - Copie.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    
+    <body>
+        <script type="text/javascript">
+            function toggle(bouton) {
+                var obj = document.getElementById(bouton);
+                if (obj.style.display == "block") obj.style.display = "none";
+                else obj.style.display = "block";
+                
+        }
+        </script>
+
+        <script>
+            $(document).on("scroll", function() {
+                var pageTop = $(document).scrollTop();
+                var pageBottom = pageTop + $(window).height();
+                var tags = $(".tag");
+              
+                for (var i = 0; i < tags.length; i++) {
+                  var tag = tags[i];
+                  if ($(tag).position().top < pageBottom) {
+                    $(tag).addClass("visible");
+                  } else {
+                    $(tag).removeClass("visible");
+                  }
+                }
+              });
+        </script>
+        
+        <!-- Barre de navigation entre les pages-->
+        <ul class="barre">
+            <li class="barre"><a  class="lien_special" href="francais.html">Français</a></li>
+            <li class="barre active"><a class=" lien_special active" href="english.html">English</a></li>
+            <li class="barre"><a class="lien_special" href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="contenu">
+            <div data-aos="fade-down" data-aos-duration="900">
+                <div class="centrer">
+                    <h1 class="titre1"> About</h1>
+                </div>
+                <p> Chemical post graduated, specialized in Leather  (Itech 1989) </p>
+
+                <h2> Carreer : </h2>
+                <br></br>
+
+                <ul class="liste liste_speciale">
+                    <li>Production manager in fur tannery</li>
+                    <li>Technical director in an north Indian based ovine tannery</li>
+                    <li>R&D and technical applications since 1995</li>
+                    <li>Independant leather and chemical consultant since 2008</li>
+                    <li>Professor at ITECH Lyon</li>
+                    <li>Technical trainer at CTC Lyon (Quotes via mail)</li>
+                </ul>
+
+                <p>I work with equal pleasure in France or foreign countries, for compagnies willing to masterize leather chemical know-how.</p>
+
+                <div class="separateur">  </div>
+            </div>
+
+            <div data-aos="fade-down" data-aos-duration="900">
+                <div class="centrer">
+                    <img src="CPIC14-articletype-RetD-copie-1.jpg">
+                </div>
+
+                <div class="centrer">
+                    <h1 class="titre1">Finding solutions</h1>
+                </div>
+
+                <p>I propose various synthesis to chemical companies willing to produces their own raw materials.</p>
+
+                <ul class="liste">
+                    <li>Polycondensation tanin</li>
+                        <ul class="sous_liste">
+                            <li>Remplacement syntan of various molecular weight</li>
+                            <li>White syntan based on dihydroxydiphényl sulfone</li>
+                            <li>Naphtalen-phenol syntan</li>
+                            <li>Amphoteric syntan</li>
+                            <li>Naphtalen syntan</li>
+                        </ul>
+
+                    <li>Filling syntan, polycondensation type</li>
+                        <ul class="sous_liste">
+                            <li>Melamin syntan</li>
+                            <li>Dicyandiamine syntan</li>
+                        </ul>
+                    
+                    <li>Aldehydes and others organics products</li>
+                        <ul class="sous_liste">
+                            <li>Monoaldehyde</li>
+                            <li>Glutaraldehyde</li>
+                            <li>Oxazolidin type I and II</li>
+                        </ul>
+                    
+                    <li>Organometalic syntan</li>
+                        <ul class="sous_liste">
+                            <li>Chrome-phenol</li>
+                            <li>Chrome-phenol-aluminium</li>
+                            <li>Aluminium triformate</li>
+                        </ul>
+                </ul>
+
+                <button class="button button1" onclick="toggle('texte_bouton1')" style="vertical-align:middle">
+                    <span>Syntan ?</span>
+                </button>
+
+                <div id="texte_bouton1" style="display:none;">
+                    Vocabulary : Synthetic tanin (syntan)= Product having properties to be binded with proteins and specially to collagen fibers. In leather domain, it include also products which have filling and dispersing actions.</i></p>
+                </div>
+
+                <div class="separateur">  </div>
+            </div>
+            
+            <div data-aos="fade-down" data-aos-duration="900">
+                <div class="centrer">
+                    <img src="CPIC14-articletype.jpg">
+                </div>
+
+                <div class="centrer">
+                    <h1 class="titre1">Articles development</h1>
+                </div>
+
+                <p>Based on tanners requirements, this service is proposed only to metropolitan french tanners.</p>
+
+                <p>I develop innovative green process. (I used only naturel based products from beamhouse to crust including dyeing)</p>
+
+                <p class="titre_liste"><u><b>Specialities</b></u></p>
+
+                <ul class="liste">
+                    <li>Shrunken grain leather including wet-blue raw material</li>
+                    <li>Pur white leather</li>
+                    <li>Glazed article</li>
+                    <li>Chrome free leather</li>
+                    <li>Automotive leather</li>
+                    <li>Burnish leather</li>
+                    <li>Waterproof leather</li>
+                </ul>
+                
+                <p class="titre_liste"><u><b>Process</b></u></p>
+                <ul class="liste">
+                    <li>Green beamhouse</li>
+                    <li>Natural dyeing</li>
+                    <li>Semi-chrome and vegetable dyeing</li>
+                </ul>
+
+                <p class="titre_liste"><u><b>Solutions to production troubleshooting due to chemicals</b></u></p>
+                <ul class="liste">
+                    <li>Fat spue</li>
+                    <li>Poor dyestuff penetration</li>
+                    <li>Poor break, looseness</li>
+                    <li>Poor dye fixation</li>
+                    <li>Fast analysis of leather products quality and concentration</li>
+                </ul>
+
+                <button class="button button2" onclick="toggle('texte_bouton2')" style="vertical-align:middle">
+                    <span id="texte_du_bouton_2">Confidentiality/ Exclusivity</span>
+                </button>
+
+                <div id="texte_bouton2" style="display:none;">
+                    Research are developed in total confidentiality and will not be communicated to third party at any time. Once finalised, recipes belong exclusive property of the customer.                </div>
+                <div class="separateur">  </div>
+            </div>
+
+            <div data-aos="fade-down" data-aos-duration="900">
+                <div class="centrer">
+                    <h1 class="titre1">Benchmarking</h1>
+                </div>
+
+                <p>CPIC advises you on cost process optimisation and proposes innovating alternatives (vegetable taning extract from SCRD, Eurofinish pigments and binders)</p>
+
+                <p>Contact me.<p>
+
+                <div class="separateur">  </div>
+            </div>
+
+            <div data-aos="fade-down" data-aos-duration="900">
+                <div class="centrer">
+                    <img src="CPIC14-articletype-formations.jpg">    
+                </div>
+
+                <div class="centrer">
+                    <h1 class="titre1">Training and Education</h1>
+                </div>
+
+                <ul class="liste">
+                    <li>FFTM internship : It is a training destinated to anyone working in the tannery field willing to get the basic knowledge on leather chemistry and process. More info on www.ctc.fr</li>
+
+                    <li>Itech education : more information on www.itech.fr</li>
+                </ul>
+                
+                <div class="separateur">  </div>
+            </div>
+
+            <div data-aos="fade-down" data-aos-duration="900">
+                <div class="centrer">
+                    <img src="CPIC14-articletype-presse.jpg">
+                </div>
+
+                <div class="centrer">
+                    <h1 class="titre1">PRESS /// World Leather /// 2011 </h1>
+                </div>
+
+                <div class="centrer">
+                    <img src="Banniere-CPIC-leather2010.jpg">
+                </div>
+
+                <p>Press articles written in English for Leather International magazine.</p>
+                <p><a href="https://www.stahl.com/index.php?id=safety-health-and-environment" target="_blank">"Efficient and eco-friendly beamhouse chemicals"</a></p>
+                <p>Client : <a href="https://www.stahl.com/index.php?id=safety-health-and-environment" target="_blank">STAHL Holdings B.V.</a></p>
+
+                <br></br>
+
+                <p><a href="http://ddata.over-blog.com/xxxyyy/3/95/80/79/A-modern-view-on-vegetable-extract-products--2-.pdf" target="_blank">"A modern view on vegetable extract products" in World Leather"</a></p>
+                <p>Client : <a href="https://www.stahl.com/index.php?id=safety-health-and-environment" target="_blank">STAHL Holdings B.V.</a></p>
+
+            </div>
+        </div>
+
+        <div class="bas_de_page">
+            <p>(Illustrations : <a class="lien_fin" href="http://www.colpizen.com/" target="_blank">Atelier Colpizen</a>) - CPIC France 2011 © Mentions légales /// Webmaster - N°siret 503 986 556 RCS Mâcon SARL au capital de 6000€</p>
+
+        </div>
+    
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>

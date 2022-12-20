@@ -1,0 +1,236 @@
+body {
+    background-image: url(fond_cuir.jpg);
+}
+
+.contenu {
+    background-color: #ffffea;
+    margin: 20px 40px;
+    padding: 35px;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.titre1 {
+    font-family: 'Open Sans', Arial;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 2px;
+    padding: 3px 10px 3px 10px;
+}
+
+h2 {
+    border-top: 3px solid black;
+    border-bottom : 3px solid black;
+    border-radius : 6px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 5px;
+}
+
+br {
+    margin-bottom: -200px;
+}
+
+.centrer {
+    text-align: center;
+}
+
+.separateur {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #095638;
+    background-color: #095638;
+    border-radius: 30px;
+    margin: 60px;
+}
+
+.liste {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: inline-block;
+    list-style-image: url(cuir.gif) ;
+    border-left-style: double;
+    border-width: 4px;
+    border-color: #095638; /*#33a371*/
+    margin-left: 30px;
+    margin-right: -50px;
+}
+
+.sous_liste {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    list-style-image: url(fleche.gif);
+}
+
+.liste_speciale {
+    margin-top: -13px;
+    
+}
+
+li {
+    margin-left: -10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.button {
+    border-radius: 50%;
+    background-color: #DBD39C;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: 3px solid #711907;
+    box-shadow: 0 12px 16px 0 rgba(9, 10, 9, 0.24), 0 17px 50px 0 rgba(4, 4, 4, 0.19);
+    transition: all 0.5s;
+
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+#texte_bouton1 {
+    background-color: #DBD39C;
+    border: 3px solid #711907;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    width: 35%;
+    padding: 6px;
+    margin-left: 550px;
+    margin-right: -200px;
+    margin-top: -180px;
+    margin-bottom: 114px;
+}
+
+#texte_bouton2 {
+    display: inline-block;
+    text-align: center;
+    background-color: #DBD39C;
+    border: 3px solid #711907;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    padding-top: 13px;
+    margin-left: 450px;
+    margin-right: -800px;
+    margin-top: -400px;
+    margin-bottom: 353px;
+}
+
+.button1 {
+    padding: 23px 3px 23px 3px;
+    margin-top: -470px;
+    margin-left: 140px;
+    margin-bottom: -50px;
+}
+
+.button2 {
+    padding: 23px 3px 23px 3px;
+    margin-left: 100px;
+    margin-top: -900px;
+}
+
+.titre_liste {
+    margin-top: 30px;
+}
+
+.bas_de_page {
+    color: white;
+    text-align : center;
+    /*le style de la balise p empêche de changer la taille de cette partie du texte*/
+    font-size: 13px;
+}
+
+li.barre {
+    display: inline;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+ul.barre {
+    background-color: #711907; 
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 70px;
+    font-size: 18px;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #BC4C22;
+}
+
+a.active {
+    background-color: #A7350F;
+}
+
+
+/* Gestion de l'apparence des liens : */
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #2b52de;
+}
+
+a:active {
+    color: green;
+}
+
+
+a.lien_special:link {
+    color: white;
+}
+
+a.lien_special:visited {
+    color: white;
+}
+
+a.lien_special:hover {
+    color: white;
+}
+
+a.lien_special:active {
+    color: white;
+}
+
+a.lien_fin:link {
+    color: white;
+}
+
+a.lien_fin:visited {
+    color: white;
+}
+
+a.lien_fin:hover {
+    color: #2b52de;
+}
+
+a.lien_fin:active {
+    color: green;
+}
