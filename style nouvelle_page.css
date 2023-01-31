@@ -21,7 +21,7 @@ img {
 
 table, tr, td {
     text-align: left;
-    border: solid 2px black;
+    /*border: solid 2px black;*/
 }
 
 td.colonne_bouton {
